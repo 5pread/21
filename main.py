@@ -147,7 +147,7 @@ if login.lower() == 'start':
                         pickACard()
                     )
                     print(asciiTable(bot1=bot1, bot2=bot2, player=player))
-                    print(f'value{checkTable()}')
+                    #print(f'value = {checkTable()}')
 
             elif wannadraw.lower() == 'pass' and checkTable() == 0:
                 for i in range(1):
@@ -158,7 +158,7 @@ if login.lower() == 'start':
                         pickACard()
                     )
                     print(asciiTable(player=player, bot1=bot1, bot2=bot2)),
-                    print(f'value = {checkTable()}')
+                    #print(f'value = {checkTable()}')
 
 elif login.lower() != 'start':
     print('dude u high?')
