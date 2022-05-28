@@ -1,5 +1,5 @@
 # 21
-Blackjack game
+console based blackjack21 game, broken asf
 
 
 
